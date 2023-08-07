@@ -10,6 +10,7 @@ public class Test {
 	@GetMapping("/m1")
 	public String m1() {
 		return "Akshay";
+		System.out.println("hello");
 		
 	}
 
